@@ -47,40 +47,57 @@ function App() {
       </section>
 
     <div className="container-fluid d-flex">
-       <div className="row text-center justify-content-around row-gap-4 w-100 pe-2 ms-2">
+       <div className="row  justify-content-around row-gap-4 w-100 pe-2 ms-2">
         <div className="col-11 p-0 border rounded-3">
           <img className='w-100' src="https://dummyimage.com/850x350/dee2e6/6c757d.jpg" alt="" />
-          <h5 className='mt-4'>Fancy Product</h5>
-          <p>$40.00 - $80.00</p>
-          <button type="button" class="btn btn-outline-dark mt-5 mb-4">View options</button>
+          <div className="p-3">
+          <p>January 1, 2023</p>
+          <h5 className='mt-4'>Featured Post Title</h5>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis aliquid atque, nulla? Quos cum ex quis soluta, a laboriosam. Dicta expedita corporis animi vero voluptate voluptatibus possimus, veniam magni quis!</p>
+          <a href='' type="button" class="btn btn-primary mt-3">Read more <svg xmlns="http://www.w3.org/2000/svg" height="0.75em" viewBox="0 0 448 512"><path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"/></svg></a>
+          </div>
         </div>
+        
         <div className="col-11 col-lg-5 p-0 border rounded-3">
           <img className='w-100' src="https://dummyimage.com/700x350/dee2e6/6c757d.jpg" alt="" />
-          <h5 className='mt-4'>Fancy Product</h5>
-          <p>$40.00 - $80.00</p>
-          <button type="button" class="btn btn-outline-dark mt-5 mb-4">View options</button>
+          <div className="p-3">
+          <p>January 1, 2023</p>
+          <h5 className='mt-4'>Post Title</h5>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis aliquid atque, nulla.</p>
+          <a href='' type="button" class="btn btn-primary mt-3">Read more <svg xmlns="http://www.w3.org/2000/svg" height="0.75em" viewBox="0 0 448 512"><path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"/></svg></a>
+        </div>
         </div>
 
         <div className="col-11 col-lg-5 p-0 border rounded-3">
           <img className='w-100' src="https://dummyimage.com/700x350/dee2e6/6c757d.jpg" alt="" />
-          <h5 className='mt-4'>Fancy Product</h5>
-          <p>$40.00 - $80.00</p>
-          <button type="button" class="btn btn-outline-dark mt-5 mb-4">View options</button>
+          <div className="p-3">
+          <p>January 1, 2023</p>
+          <h5 className='mt-4'>Post Title</h5>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis aliquid atque, nulla.</p>
+          <a href='' type="button" class="btn btn-primary mt-3">Read more <svg xmlns="http://www.w3.org/2000/svg" height="0.75em" viewBox="0 0 448 512"><path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"/></svg></a>
+        </div>
         </div>
 
         <div className="col-11 col-lg-5 p-0 border rounded-3">
           <img className='w-100' src="https://dummyimage.com/700x350/dee2e6/6c757d.jpg" alt="" />
-          <h5 className='mt-4'>Fancy Product</h5>
-          <p>$40.00 - $80.00</p>
-          <button type="button" class="btn btn-outline-dark mt-5 mb-4">View options</button>
+          <div className="p-3">
+          <p>January 1, 2023</p>
+          <h5 className='mt-4'>Post Title</h5>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis aliquid atque, nulla.</p>
+          <a href='' type="button" class="btn btn-primary mt-3">Read more <svg xmlns="http://www.w3.org/2000/svg" height="0.75em" viewBox="0 0 448 512"><path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"/></svg></a>
+        </div>
         </div>
 
         <div className="col-11 col-lg-5 p-0 border rounded-3">
-          <img className='w-100' src="https://dummyimage.com/700x350/dee2e6/6c757d.jpg" alt="" />
-          <h5 className='mt-4'>Fancy Product</h5>
-          <p>$40.00 - $80.00</p>
-          <button type="button" class="btn btn-outline-dark mt-5 mb-4">View options</button>
+        <img className='w-100' src="https://dummyimage.com/700x350/dee2e6/6c757d.jpg" alt="" />
+        <div className="p-3">
+        <p>January 1, 2023</p>
+          <h5 className='mt-4'>Post Title</h5>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis aliquid atque, nulla.</p>
+          <a href='' type="button" class="btn btn-primary mt-3">Read more <svg xmlns="http://www.w3.org/2000/svg" height="0.75em" viewBox="0 0 448 512"><path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"/></svg></a>
         </div>
+        </div>
+        
         <hr className='m-2' />
         <nav aria-label="Page navigation example">
            <ul class="pagination justify-content-center">
