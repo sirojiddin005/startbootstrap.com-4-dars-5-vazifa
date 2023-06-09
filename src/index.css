@@ -1,0 +1,18 @@
+
+p {
+  margin: 0 !important;
+}
+header a, .header2 a {
+  text-decoration: none ;
+  color: black ;
+}
+@media(max-width: 800px) {
+  .menu {
+    display: none !important;
+  }
+}
+ul {
+  list-style: none;
+  margin: 0 !important;
+  padding: 0 !important;
+}
